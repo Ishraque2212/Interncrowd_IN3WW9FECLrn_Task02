@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Login / Sign Up Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form">
+            <div class="button">
+                <div id="btn"></div>
+                <button class="toogle-btn" onclick="login()">Login</button>
+                <button class="toogle-btn" onclick="signup()">Sign Up</button>
+            </div>
+
+            <form class="input-group" id="login">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"> <span>Remember Password</span>
+                <button class="submitBtn" id="loginBtn">Login</button>
+            </form>
+            
+            <form class="input-group" id="signUp">
+                <input type="text" class="input-field" placeholder="Name" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="checkbox" required> <span>I agree to the Terms & Conditions</span>
+                <button class="submitBtn" id="signUpBtn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
